@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet3</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>GUESS MY NUMBER</h1>
+        <p>Guess the number between 1 and 100</p>
+        <!--when the user win-->
+        <div class="youwin" id="youw">You <br> Win</div>
+        <div class="congra" id="congrat">Congratulation</div>
+        <div class="gameWin" id="gameW">
+        </div>
+        <button class="playAgain" id="btnPlayagain">Play again</button>
+
+    <div class="game" id="bdgame">
+        <div class="bodyGame" >
+            <div class="headerGame">
+                <div class="heiderRight">
+                    score: <span class="score">10</span> <br>
+                    Hight score: <span class="heightScore">0</span> 
+                </div>
+                <div class="heiderLeft">
+                    <button class="btnreset">Reset</button>
+                </div>
+            </div>
+            <div class="">
+                <div class="image"><img class="imgguess" src="guess.webp" alt="Guess"></div><br>
+                <div class="inText"> 
+                    <input class="txtGuess" placeholder="Guess a Nuber" type="text"><br>
+                    <button class="check">Check</button>
+                </div>
+                <div class="msgs">Guess a Number</div>
+                <div></div>
+            </div>
+
+            
+        </div>
+    </div>
+    <div class="footerGame">
+        Guess History
+        <ul id="listGess"></ul>
+    </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
